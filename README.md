@@ -14,7 +14,7 @@ I learned core networking concepts essential for DevOps, including IP addressing
 - Using network troubleshooting tools: ping, traceroute, nslookup
 
 ## Assignments
-- [EC2 Instance Setup](ec2-nginx-setup.md): Steps to launch an EC2 instance, configure security groups, link a custom domain, and serve a custom NGINX page.
+- [EC2 Instance Setup](assignment/ec2-nginx-setup.md): Steps to launch an EC2 instance, configure security groups, link a custom domain, and serve a custom NGINX page.
 
 ## Notes
 - [Networking Notes](notes.md): Comprehensive notes covering all module topics for reference and study.
