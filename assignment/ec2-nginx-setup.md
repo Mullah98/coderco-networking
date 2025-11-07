@@ -4,13 +4,15 @@
 
 ---
 
-## Setup steps:
+## ⚙️ Setup steps:
 
 ## Step 1: Domain setup
 
 - Purchase a personal domain from either AWS Route 53 or Cloudflare (I chose the latter)
 
 - ![Step 1](../screenshots/screenshot-1.png)
+
+---
 
 ## Step 2: Launch EC2 Instance
 
@@ -24,9 +26,13 @@
 
 - ![Step 2](../screenshots/screenshot-2.png)
 
+---
+
 ## Step 3: Connect to the server using ssh in your terminal
 
 - `ssh -i /path/to/key.pem ubuntu@PUBLIC_IP`
+
+---
 
 ## Step 4: Install & Run NGINX
 
@@ -35,17 +41,23 @@
 - `sudo systemctl enable nginx` - This ensures it runs on reboot if the EC2 instanc restarts keeping the webpage online
 - `systemctl status nginx` - Check to see if it is running. Should see **active (running**)
 
+---
+
 ## Step 5: Test in browser
 
 - You should see the NGINX default welcome page
 
 - ![Step 5](../screenshots/screenshot-3.png)
 
+---
+
 ## Step 6: Connect Domain to EC2
 
 - Create an **A record** in Cloudflare pointing `nginx.ibrahimdevops.co.uk` -> EC2 public IPv4
 
 - ![Step 6](../screenshots/screenshot-4.png)
+
+---
 
 ## (Optional Step): Customize website
 
