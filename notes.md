@@ -165,9 +165,9 @@ A computer network connects devices (phones, laptops, TVs) to share data and res
 - Purpose: Conserves IPs, improves security, simplifies network design.
 
 **Types:**
-- *Static* -> One to one mapping. One private IP permanently mapped to 1 public IP
-- *Dynamic* -> Private IP mapped to any free public IP. Changes depending on what's available.
-- *PAT* -> Port Address Translation. Many private devices share 1 public IP using ports. Mostly used in homes.
+- **Static** -> One to one mapping. One private IP permanently mapped to 1 public IP
+- **Dynamic** -> Private IP mapped to any free public IP. Changes depending on what's available.
+- **PAT** -> Port Address Translation. Many private devices share 1 public IP using ports. Mostly used in homes.
 
 ---
 
